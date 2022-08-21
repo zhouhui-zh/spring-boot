@@ -1,0 +1,56 @@
+server:
+    port: 8080
+
+#主数据库
+spring:
+    #宽限期配置
+    #lifecycle:       timeout-per-shutdown-phase: "0s"
+
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/test_sharding_proxy?useUnicode=true&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&autoReconnect=true&failOverReadOnly=false
+        username: root
+        password: root
+
+# 从数据数据库
+slave:
+    datasource:
+        names: name1,name2
+        name1:
+            driver-class-name: com.mysql.cj.jdbc.Driver
+            names: datasource1
+            url: jdbc:mysql://127.0.0.1:3306/test_sharding_proxy_0?useUnicode=true&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&&autoReconnect=true&failOverReadOnly=false
+            username: root
+            password: root
+            type: com.alibaba.druid.pool.DruidDataSource
+        name2:
+            driver-class-name: com.mysql.cj.jdbc.Driver
+            names: datasource2
+            url: jdbc:mysql://127.0.0.1:3306/test_sharding_proxy_1?useUnicode=true&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&autoReconnect=true&failOverReadOnly=false
+            username: root
+            password: root
+            type: com.alibaba.druid.pool.DruidDataSource
+
+
+#配置mybatis日志
+mybatis-plus:
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: "*"
+            base-path: /actuator
+
+    endpoint:
+        shutdown:
+            enabled: true
+
+task:
+    pool:
+        corePoolSize: 20
+        maxPoolSize: 40
+        keepAliveSeconds: 300
+        queueCapacity: 50

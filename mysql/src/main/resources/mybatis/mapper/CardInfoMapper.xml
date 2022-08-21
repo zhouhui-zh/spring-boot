@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hui.springboot.mysql.dao.CardInfoDao">
+
+    <sql id="Base_Column_List">
+        id
+        ,card_num,card_name,quota,billing_date,longest_repayment,fixed_repayment
+    </sql>
+
+    <select id="selectByPrimaryKey" resultType="com.hui.springboot.mysql.po.CardInfo">
+        select
+        <include refid="Base_Column_List"/>
+        from card_info where id =#{id}
+    </select>
+    <select id="getAll" resultType="com.hui.springboot.mysql.po.CardInfo">
+        select
+        <include refid="Base_Column_List"/>
+        from card_info
+    </select>
+
+
+</mapper>

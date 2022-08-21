@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hui.springboot.mysql.dao.RepaymentPlanDao">
+
+    <sql id="Base_Column_List">
+        id
+        ,        card_id,month,bill_date,Latest_repayment_date
+    </sql>
+    <select id="getLastByCardId" resultType="com.hui.springboot.mysql.po.RepaymentPlan">
+        select
+        <include refid="Base_Column_List"/>
+        from repayment_plan
+        where card_id = #{cardId}
+        order by month desc limit 1
+    </select>
+
+    <select id="getListByMonth" resultType="com.hui.springboot.mysql.po.RepaymentPlan">
+        select
+        <include refid="Base_Column_List"/>
+        from repayment_plan
+        where month = #{month}
+    </select>
+    <select id="getOneByMonthCardId" resultType="com.hui.springboot.mysql.po.RepaymentPlan">
+        select
+        <include refid="Base_Column_List"/>
+        from repayment_plan
+        where card_id = #{cardId} and month = #{month}
+    </select>
+
+    <insert id="insert" parameterType="com.hui.springboot.mysql.po.RepaymentPlan">
+        insert into repayment_plan (card_id, month, bill_date, Latest_repayment_date)
+        values (#{cardId}, #{month}, #{billDate}, #{LatestRepaymentDate})
+    </insert>
+    <insert id="insertSelective" parameterType="com.hui.springboot.mysql.po.RepaymentPlan">
+        insert into repayment_plan
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="cardId != null">
+                card_id,
+            </if>
+            <if test="statementDate != null">
+                statement_date,
+            </if>
+            <if test="dueDate != null">
+                due_date,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="cardId != null">
+                #{cardId,jdbcType=INTEGER},
+            </if>
+            <if test="statementDate != null">
+                #{statementDate,jdbcType=DATE},
+            </if>
+            <if test="dueDate != null">
+                #{dueDate,jdbcType=DATE},
+            </if>
+        </trim>
+    </insert>
+
+</mapper>

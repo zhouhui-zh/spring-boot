@@ -1,0 +1,29 @@
+2022-04-18 16:17:07.000 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-18 16:17:07.001 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-04-18 16:17:07.012 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-04-18 16:17:13.081 [main] INFO  com.hui.springboot.mysql.MysqlApplication.main(MysqlApplication.java:18) - start.....
+2022-04-18 16:17:13.560 [main] INFO  com.hui.springboot.mysql.MysqlApplication.logStarting(StartupInfoLogger.java:55) - Starting MysqlApplication on e-mood with PID 20088 (G:\workspace\idea-workspace\springboot\mysql\target\classes started by zh in G:\workspace\idea-workspace\springboot\mysql)
+2022-04-18 16:17:13.561 [main] INFO  com.hui.springboot.mysql.MysqlApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2022-04-18 16:17:14.526 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+2022-04-18 16:17:14.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-18 16:17:14.536 [main] INFO  org.apache.catalina.core.StandardService.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+2022-04-18 16:17:14.536 [main] INFO  org.apache.catalina.core.StandardEngine.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-18 16:17:14.620 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2022-04-18 16:17:14.621 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1007 ms
+2022-04-18 16:17:14.929 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+2022-04-18 16:17:17.658 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2022-04-18 16:17:17.771 [main] INFO  com.hui.springboot.mysql.service.DueDateService.createPlanItem(DueDateService.java:110) -  中信 信用卡 9597 的出账单日期 20220401 最后还款日期 20220420
+2022-04-18 16:17:17.784 [main] INFO  com.hui.springboot.mysql.service.DueDateService.createPlanItem(DueDateService.java:110) - 广发南航 信用卡 3167 的出账单日期 20220403 最后还款日期 20220423
+2022-04-18 16:17:17.796 [main] INFO  com.hui.springboot.mysql.service.DueDateService.createPlanItem(DueDateService.java:110) - 广发3167 信用卡 3167 的出账单日期 20220403 最后还款日期 20220423
+2022-04-18 16:17:17.808 [main] INFO  com.hui.springboot.mysql.service.DueDateService.createPlanItem(DueDateService.java:110) - 中原 信用卡 9750 的出账单日期 20220410 最后还款日期 20220505
+2022-04-18 16:17:17.818 [main] INFO  com.hui.springboot.mysql.service.DueDateService.createPlanItem(DueDateService.java:110) - 招商 信用卡 8467 的出账单日期 20220414 最后还款日期 20220502
+2022-04-18 16:17:17.830 [main] INFO  com.hui.springboot.mysql.service.DueDateService.createPlanItem(DueDateService.java:110) -  平安 信用卡 2648 的出账单日期 20220418 最后还款日期 20220507
+2022-04-18 16:17:17.839 [main] INFO  com.hui.springboot.mysql.service.DueDateService.createPlanItem(DueDateService.java:110) - 华夏 信用卡 6539 的出账单日期 20220422 最后还款日期 20220512
+2022-04-18 16:17:17.953 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-18 16:17:18.101 [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-18 16:17:18.122 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-18 16:17:18.131 [main] INFO  com.hui.springboot.mysql.MysqlApplication.logStarted(StartupInfoLogger.java:61) - Started MysqlApplication in 4.91 seconds (JVM running for 8.392)
+2022-04-18 16:17:18.133 [main] INFO  com.hui.springboot.mysql.MysqlApplication.main(MysqlApplication.java:20) - start.....success..
+2022-04-18 17:32:45.008 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-18 17:32:45.012 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+2022-04-18 17:32:45.020 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.

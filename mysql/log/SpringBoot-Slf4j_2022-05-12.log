@@ -1,0 +1,163 @@
+2022-05-12 08:51:36.853 [main] WARN  io.netty.bootstrap.ServerBootstrap.warn(Slf4JLogger.java:146) - Unknown channel option 'SO_SNDBUF' for channel '[id: 0x25f2f8b8]'
+2022-05-12 08:51:36.873 [main] WARN  io.netty.bootstrap.ServerBootstrap.warn(Slf4JLogger.java:146) - Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0x25f2f8b8]'
+2022-05-12 08:51:36.887 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler.info(Slf4JLogger.java:101) - [id: 0x25f2f8b8] REGISTERED
+2022-05-12 08:51:36.888 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler.info(Slf4JLogger.java:101) - [id: 0x25f2f8b8] BIND: 0.0.0.0/0.0.0.0:12359
+2022-05-12 08:51:36.891 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler.info(Slf4JLogger.java:101) - [id: 0x25f2f8b8, L:/0:0:0:0:0:0:0:0:12359] ACTIVE
+2022-05-12 08:51:36.893 [nioEventLoopGroup-2-1] INFO  com.hui.springboot.mysql.proxy5.Proxy.lambda$init$0(Proxy.java:62) - 服务器启动成功 ：端口 12359
+2022-05-12 08:52:03.675 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler.info(Slf4JLogger.java:101) - [id: 0x25f2f8b8, L:/0:0:0:0:0:0:0:0:12359] READ: [id: 0x4b0cf492, L:/127.0.0.1:12359 - R:/127.0.0.1:54888]
+2022-05-12 08:52:03.676 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler.info(Slf4JLogger.java:101) - [id: 0x25f2f8b8, L:/0:0:0:0:0:0:0:0:12359] READ COMPLETE
+2022-05-12 08:52:03.695 [nioEventLoopGroup-2-2] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelActive(ProxyClientHandler.java:20) - ...channelActive...远程/127.0.0.1:12358，本地/127.0.0.1:54888
+2022-05-12 08:52:03.731 [nioEventLoopGroup-3-1] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : hello 
+2022-05-12 08:52:03.764 [nioEventLoopGroup-2-2] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： hello  * hello 
+2022-05-12 08:52:04.784 [nioEventLoopGroup-3-1] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : a
+2022-05-12 08:52:04.786 [nioEventLoopGroup-2-2] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： a * a
+2022-05-12 11:29:59.484 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler.info(Slf4JLogger.java:101) - [id: 0x25f2f8b8, L:/0:0:0:0:0:0:0:0:12359] READ: [id: 0xbcef0072, L:/127.0.0.1:12359 - R:/127.0.0.1:61749]
+2022-05-12 11:29:59.495 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler.info(Slf4JLogger.java:101) - [id: 0x25f2f8b8, L:/0:0:0:0:0:0:0:0:12359] READ COMPLETE
+2022-05-12 11:29:59.505 [nioEventLoopGroup-2-3] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelActive(ProxyClientHandler.java:20) - ...channelActive...远程/127.0.0.1:12358，本地/127.0.0.1:61749
+2022-05-12 11:29:59.523 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : hello 
+2022-05-12 11:29:59.532 [nioEventLoopGroup-2-3] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： hello  * hello 
+2022-05-12 11:30:00.556 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : a
+2022-05-12 11:30:00.558 [nioEventLoopGroup-2-3] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： a * a
+2022-05-12 11:30:01.592 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 6
+2022-05-12 11:30:02.600 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 2
+2022-05-12 11:30:03.612 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : C
+2022-05-12 11:30:03.615 [nioEventLoopGroup-2-3] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： C * C
+2022-05-12 11:30:04.627 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : E
+2022-05-12 11:30:04.632 [nioEventLoopGroup-2-3] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： E * E
+2022-05-12 11:30:05.641 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 4
+2022-05-12 11:30:06.656 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 3
+2022-05-12 11:30:07.672 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 5
+2022-05-12 11:30:08.684 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 1
+2022-05-12 11:30:09.699 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : B
+2022-05-12 11:30:09.704 [nioEventLoopGroup-2-3] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： B * B
+2022-05-12 11:30:10.709 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 8
+2022-05-12 11:30:11.712 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 7
+2022-05-12 11:30:12.728 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : D
+2022-05-12 11:30:12.730 [nioEventLoopGroup-2-3] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： D * D
+2022-05-12 11:30:13.741 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 9
+2022-05-12 11:30:14.754 [nioEventLoopGroup-3-2] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : F
+2022-05-12 11:30:14.756 [nioEventLoopGroup-2-3] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： F * F
+2022-05-12 14:01:05.697 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler.info(Slf4JLogger.java:101) - [id: 0x25f2f8b8, L:/0:0:0:0:0:0:0:0:12359] READ: [id: 0x55c5f34a, L:/127.0.0.1:12359 - R:/127.0.0.1:55420]
+2022-05-12 14:01:05.704 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler.info(Slf4JLogger.java:101) - [id: 0x25f2f8b8, L:/0:0:0:0:0:0:0:0:12359] READ COMPLETE
+2022-05-12 14:01:05.710 [nioEventLoopGroup-2-4] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelActive(ProxyClientHandler.java:20) - ...channelActive...远程/127.0.0.1:12358，本地/127.0.0.1:55420
+2022-05-12 14:01:05.724 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : hello 
+2022-05-12 14:01:05.735 [nioEventLoopGroup-2-4] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： hello  * hello 
+2022-05-12 14:01:06.751 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 2
+2022-05-12 14:01:07.754 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 1
+2022-05-12 14:01:08.771 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 6
+2022-05-12 14:01:09.780 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : E
+2022-05-12 14:01:09.782 [nioEventLoopGroup-2-4] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： E * E
+2022-05-12 14:01:10.795 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 9
+2022-05-12 14:01:11.814 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 7
+2022-05-12 14:01:12.819 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 4
+2022-05-12 14:01:13.824 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : B
+2022-05-12 14:01:13.826 [nioEventLoopGroup-2-4] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： B * B
+2022-05-12 14:01:14.839 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : D
+2022-05-12 14:01:14.844 [nioEventLoopGroup-2-4] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： D * D
+2022-05-12 14:01:15.851 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : F
+2022-05-12 14:01:15.854 [nioEventLoopGroup-2-4] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： F * F
+2022-05-12 14:01:16.867 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : C
+2022-05-12 14:01:16.869 [nioEventLoopGroup-2-4] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： C * C
+2022-05-12 14:01:17.873 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 5
+2022-05-12 14:01:18.885 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : a
+2022-05-12 14:01:18.887 [nioEventLoopGroup-2-4] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： a * a
+2022-05-12 14:01:19.889 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 8
+2022-05-12 14:01:20.899 [nioEventLoopGroup-3-3] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 3
+2022-05-12 14:01:50.826 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler.info(Slf4JLogger.java:101) - [id: 0x25f2f8b8, L:/0:0:0:0:0:0:0:0:12359] READ: [id: 0x6a2ddbf9, L:/127.0.0.1:12359 - R:/127.0.0.1:55700]
+2022-05-12 14:01:50.827 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler.info(Slf4JLogger.java:101) - [id: 0x25f2f8b8, L:/0:0:0:0:0:0:0:0:12359] READ COMPLETE
+2022-05-12 14:01:50.830 [nioEventLoopGroup-2-5] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelActive(ProxyClientHandler.java:20) - ...channelActive...远程/127.0.0.1:12358，本地/127.0.0.1:55700
+2022-05-12 14:01:50.852 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : hello 
+2022-05-12 14:01:50.855 [nioEventLoopGroup-2-5] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： hello  * hello 
+2022-05-12 14:01:51.877 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : C
+2022-05-12 14:01:51.882 [nioEventLoopGroup-2-5] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： C * C
+2022-05-12 14:01:52.896 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : D
+2022-05-12 14:01:52.898 [nioEventLoopGroup-2-5] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： D * D
+2022-05-12 14:01:53.919 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 3
+2022-05-12 14:01:54.926 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 1
+2022-05-12 14:01:55.942 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : E
+2022-05-12 14:01:55.944 [nioEventLoopGroup-2-5] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： E * E
+2022-05-12 14:01:56.950 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 7
+2022-05-12 14:01:57.967 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 4
+2022-05-12 14:01:58.980 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 6
+2022-05-12 14:01:59.998 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : B
+2022-05-12 14:02:00.000 [nioEventLoopGroup-2-5] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： B * B
+2022-05-12 14:02:01.011 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : F
+2022-05-12 14:02:01.015 [nioEventLoopGroup-2-5] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： F * F
+2022-05-12 14:02:02.024 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 8
+2022-05-12 14:02:03.041 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 5
+2022-05-12 14:02:04.052 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 2
+2022-05-12 14:02:05.055 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : 9
+2022-05-12 14:02:06.070 [nioEventLoopGroup-3-4] INFO  com.hui.springboot.mysql.proxy5.ProxyHandler.channelRead(ProxyHandler.java:30) - proxy ProxyHandler channelRead : a
+2022-05-12 14:02:06.076 [nioEventLoopGroup-2-5] INFO  com.hui.springboot.mysql.proxy5.ProxyClientHandler.channelRead(ProxyClientHandler.java:32) - proxy Client channelRead： a * a
+2022-05-12 18:09:56.303 [nioEventLoopGroup-2-4] WARN  io.netty.channel.DefaultChannelPipeline.warn(Slf4JLogger.java:151) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-12 18:09:56.303 [nioEventLoopGroup-2-2] WARN  io.netty.channel.DefaultChannelPipeline.warn(Slf4JLogger.java:151) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-12 18:09:56.303 [nioEventLoopGroup-2-5] WARN  io.netty.channel.DefaultChannelPipeline.warn(Slf4JLogger.java:151) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-12 18:09:56.303 [nioEventLoopGroup-2-3] WARN  io.netty.channel.DefaultChannelPipeline.warn(Slf4JLogger.java:151) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
